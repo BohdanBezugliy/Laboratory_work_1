@@ -11,9 +11,9 @@ namespace Лабораторна_робота__1
             try
             {
                 Console.Write("Введіть першу сторону прямокутника: ");
-                a = double.Parse(Console.ReadLine());
+                a = Convert.ToDouble(Console.ReadLine());
                 Console.Write("Введіть другу сторону прямокутника: ");
-                b = double.Parse(Console.ReadLine());
+                b = Convert.ToDouble(Console.ReadLine());
                 Rectangle rectangle = new Rectangle(a,b);
                 rectangle.Print();
                 if(rectangle.Correct())
