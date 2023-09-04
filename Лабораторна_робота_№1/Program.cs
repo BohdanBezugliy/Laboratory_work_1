@@ -18,8 +18,8 @@ namespace Лабораторна_робота__1
                 rectangle.Print();
                 if(rectangle.Correct())
                 {
-                    Console.WriteLine("S = " + rectangle.Area());
-                    Console.WriteLine("P = " + rectangle.Perimeter());
+                    Console.WriteLine("S = {0:F3}", rectangle.Area());
+                    Console.WriteLine("P = {0:F3}", rectangle.Perimeter());
                 }
                 else
                 {
